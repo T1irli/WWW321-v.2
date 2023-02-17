@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.nav_p{
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.nav_link{
+    margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav_link:hover{
+    color: skyblue;
+    transition: all .2s ease;
+}
