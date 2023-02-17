@@ -1,0 +1,56 @@
+.table th, .table td{
+    border: 1px solid #6395ff;
+    padding: 5px 10px; 
+
+}
+
+.table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.table thead{
+    background-color: #dae1f8;
+}
+
+.start {
+    border: 3px solid #000;
+    background-color:#dae1f8;
+    width: 10px;
+}
+
+.end{
+    background-color: aquamarine;
+}
+
+.table tfoot{
+    background-color: #5776b1;
+    color: #fff;
+    text-align: right;
+}
+
+.schedule, .schedule th{
+    border: 3px solid #000;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.week{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.schedule tbody td{
+    border: 1px solid #000;
+}
+
+.cabinet{
+    vertical-align: bottom;
+}
+
+.lesson{
+    text-align: left;
+    width: 230px;
+}

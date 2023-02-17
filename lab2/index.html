@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Таблиці</title>
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <th>№</th>
+            <th>Ім'я</th>
+            <th>E-mail</th>
+            <th>Стать</th>
+            <th>Дата</th>
+        </thead>
+       <tbody>
+        <tr>
+        <td>1</td>
+        <td>Іван</td>
+        <td>ivan@gmail.com</td>
+        <td>Ч</td>
+        <td>01.01.2002</td>
+       </tr>
+       <tr>
+        <td>2</td>
+        <td>Олена</td>
+        <td>ola@gmail.com</td>
+        <td>Ж</td>
+        <td>02.02.2004</td>
+       </tr>
+       <tr>
+        <td>3</td>
+        <td>Мірена</td>
+        <td>mira@gmail.com</td>
+        <td>Ж</td>
+        <td>09.09.2001</td>
+       </tr>
+       </tbody>
+        <tfoot><td colspan="5">Всього: 3</td></tfoot>
+    </table>
+    <br><br>
+    <table class="schedule">
+        <caption><b>Розклад занять</b></caption>
+        <thead>
+            <tr>
+            <col class="start" span="3">
+            <th rowspan="2">День тижня</th>
+            <th rowspan="2">Пара</th>
+            <th rowspan="2">Тиждень</th>
+            <th class="end">Марцюк О.В.</th>
+            <th rowspan="2" class="end">Ауд. (І)</th>
+            <th rowspan="2" class="end">Ауд. (ІI)</th>
+                </tr>
+                <tr>
+                    <th class="end">КІ-405п</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="week" rowspan="10">СЕРЕДА</td>
+                <td rowspan="2">3</td>
+                <td>I</td>
+                <td class="lesson" rowspan="2">Програмне забезпечення<br>Лісовий
+                </td>
+                <td class="cabinet" rowspan="2">103</td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>III</td>
+            </tr>
+            <tr>
+                <td rowspan="2">4</td>
+                <td>I</td>
+                <td class="lesson" rowspan="2">Організація БД<br>Штокало</td>
+                <td class="cabinet" rowspan="2">316</td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>III</td>
+            </tr>
+            <tr>
+                <td rowspan="2">5</td>
+                <td>I</td>
+                <td class="lesson" rowspan="2">Охорона праці в галузі<br>Дячук</td>
+                <td class="cabinet" rowspan="2">104</td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>III</td>
+            </tr>
+            <tr>
+                <td rowspan="2">6</td>
+                <td>I</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>III</td>
+            </tr>
+            <tr>
+                <td rowspan="2">7</td>
+                <td>I</td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>III</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
