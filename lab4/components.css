@@ -1,0 +1,27 @@
+.component{
+    width: 240px;
+    height: 430px;
+    display: block;
+    margin: 0 auto;
+    background-color: gainsboro;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.component_img{
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.content p{
+    text-align: center;
+    margin: 6px;
+}
+
+.content p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+}
