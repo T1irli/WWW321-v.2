@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="modal_window">
+        <div class="header">
+            <p>Cooling system options</p>
+            <div class="close">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+            </div>
+        </div>
+        <hr>
+        <div class="content">
+            <form action="">
+                <label for="creator">Виробник</label>
+                <input type="text" id="creator">
+                <label for="cooling_type">Тип</label>
+                <select id="cooling_type">
+                    <option value="air">Повітряна</option>
+                    <option value="water">Водяна</option>
+                </select>
+                <label for="power">Розсіювальна потужність (Вт)</label>
+                <input type="number" id="power">
+                <label for="loud">Рівень шуму (Дб)</label>
+                <input type="number" id="loud">
+                <label for="material">Матеріал</label>
+                <select id="material">
+                    <option value="aluminium">Алюміній</option>
+                    <option value="cuprum">Мідь</option>
+                    <option value="iron">Залізо</option>
+                </select>
+                <img src="" alt="photo">
+                <label class="smaller" for="photo_pick">Виберіть файл нижче</label>
+                <input id="photo_pick" type="file">
+            </form>
+        </div>
+        <div class="footer">
+            <button class="component_button edit_btn">Edit</button>
+        </div>
+    </div>
+</body>
+</html>
