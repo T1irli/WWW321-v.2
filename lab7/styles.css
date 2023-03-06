@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: LightGrey;
+}
+
+.item{
+    line-height: 1.5em;
+    background-color:DodgerBlue;
+    margin: 5px;
+}
+
+.row{
+    display: flex;
+    align-items: baseline;
+}
+
+.left-item, .right-item{
+   width: 10%;
+   min-width: 150px;
+}
+
+.center-item{
+    width: 80%;
+}
