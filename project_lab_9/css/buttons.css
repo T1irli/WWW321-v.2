@@ -1,0 +1,45 @@
+.btn, .rounded-btn {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  margin: 10px;
+}
+
+.rounded-btn {
+  border-radius: 10px;
+}
+
+.green {
+  background-color: #18F53D;
+  color: #010d03;
+}
+.green:hover {
+  background-color: #09d12b;
+}
+
+.red {
+  background-color: #F50032;
+  color: black;
+}
+.red:hover {
+  background-color: #c20028;
+}
+
+.blue {
+  background-color: #3157F5;
+  color: #020925;
+}
+.blue:hover {
+  background-color: #0b36e8;
+}
+
+.yellow {
+  background-color: #F5B90C;
+  color: #020100;
+}
+.yellow:hover {
+  background-color: #c69508;
+}

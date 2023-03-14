@@ -1,0 +1,44 @@
+$green: #18F53D;
+$red: #F50032;
+$blue: #3157F5;
+$yellow: #F5B90C; //змінні
+$border: 10px;
+
+.btn{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: all .3s ease-out;
+    margin: 10px;
+}
+
+.rounded-btn{
+    @extend .btn;     // спадкування
+    border-radius: $border;
+}
+
+@mixin btn($color){
+    background-color: $color;
+    color: darken($color, 50%);
+
+    &:hover{    // вкладеність
+        background-color: darken($color, 10%);
+    }
+}
+
+.green{
+    @include btn($green);   // домішки
+}
+
+.red{
+    @include btn($red);
+}
+
+.blue{
+    @include btn($blue);
+}
+
+.yellow{
+    @include btn($yellow);
+}
